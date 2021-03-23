@@ -24,7 +24,7 @@ You only need a few things:
 2. Open the file with an editor of your choice, like `nano`, or `vim`.
 
 ```
-nano /path/to/script/ac_adapter_check.sh
+$ nano /path/to/script/ac_adapter_check.sh
 ```
 
 3. Edit the `LOGPATH` variable to the full path of where you would like logs written to. If you do not want to keep any logs, you can set this to be `/dev/null`.
@@ -48,7 +48,7 @@ $ sudo crontab -e -u root
 6. Reboot your machine
 
 ```
-sudo reboot
+$ sudo reboot
 ```
 
 The script should be ready to go.
