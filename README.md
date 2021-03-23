@@ -16,14 +16,15 @@ If using a laptop as a headless system, you will have the laptop plugged into it
 You only need a few things:
 
 * Root or `sudo` access to your machine
-* ACPI - which can be installed with: `sudo apt install acpi`
+* wget - can be installed with: `sudo apt install wget`
+* acpi - can be installed with: `sudo apt install acpi`
 
 ### Installing
 
-1. Move to your directory of choice and download/clone the script.
+1. Move to your directory of choice and download the script.
 
 ```
-$ git clone https://github.com/SlimJim716/AC-Power-check
+$ wget https://github.com/SlimJim716/AC-Power-check/blob/main/ac_adapter_check.sh
 ```
 
 2. Open the file with an editor of your choice, like `nano`, or `vim`.
