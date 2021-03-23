@@ -54,7 +54,7 @@ sudo reboot
 The script should be ready to go.
 
 
-## Logs
+### Logs
 
 The logfile should contain 3 different messages, with timestamps on all.
 
@@ -63,5 +63,5 @@ The logfile should contain 3 different messages, with timestamps on all.
 * `**AC pwr restored before timeout**` - The script has waited its grace period and has checked for AC power again. AC power has been restored. No action will be taken. The script will continue to monitor the AC power every 8 minutes after this.
 
 
-## Authors
+### Authors
 - Me :)
