@@ -20,7 +20,12 @@ You only need a few things:
 
 ### Installing
 
-1. Download the script and place it wherever you would like
+1. Move to your directory of choice and download/clone the script.
+
+```
+$ git clone https://github.com/SlimJim716/AC-Power-check
+```
+
 2. Open the file with an editor of your choice, like `nano`, or `vim`.
 
 ```
