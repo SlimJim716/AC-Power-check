@@ -1,6 +1,6 @@
-# AC Power Checker
+# AC Power Check
 
-Probe your system for AC power. Shutdown accordingly.
+Probe your laptop for AC power. Shutdown accordingly.
 
 ## Overview
 
@@ -24,7 +24,7 @@ You only need a few things:
 1. Move to your directory of choice and download the script.
 
 ```
-$ wget https://github.com/SlimJim716/AC-Power-check/blob/main/ac_adapter_check.sh
+$ wget https://raw.githubusercontent.com/SlimJim716/AC-Power-check/main/ac_adapter_check.sh
 ```
 
 2. Open the file with an editor of your choice, like `nano`, or `vim`.
