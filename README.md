@@ -67,7 +67,3 @@ The logfile should contain 3 different messages, with timestamps on all.
 * `AC pwr unplugged. Waiting 4 minutes before rechecking.` - The script has detected that your system is not receiving AC power. It will wait before checking again to be sure it is not just a brown-out.
 * `****AC pwr still unplugged. Shutting down****` - The script has waited its grace period and has checked for AC power again. There is still no AC power after the grace period and your system will be issued the `shutdown now` command.
 * `**AC pwr restored before timeout**` - The script has waited its grace period and has checked for AC power again. AC power has been restored. No action will be taken. The script will continue to monitor the AC power every 8 minutes after this.
-
-
-### Authors
-- Me :)
